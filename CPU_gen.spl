@@ -1,0 +1,10 @@
+[Inputs]
+clk
+rst
+trig
+[Outputs]
+wr_rd
+cs
+=Address[15:0]=
+=DOut[7:0]=
+[BiDir]

@@ -1,0 +1,2 @@
+vhdtdtfi -lib work d_out_mux.vhd -prj proj1 -o d_out_mux.spl -module d_out_mux -template /CMC/tools/xilinx/13.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e d_out_mux.spl /home/student2/m3abdelh/COE758/proj1/d_out_mux.sym 

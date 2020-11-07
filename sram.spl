@@ -1,0 +1,8 @@
+[Inputs]
+clk
+wr_en
+=addr[7:0]=
+=d_in[7:0]=
+[Outputs]
+=d_out[7:0]=
+[BiDir]

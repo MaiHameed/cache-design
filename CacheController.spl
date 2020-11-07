@@ -1,0 +1,16 @@
+[Inputs]
+clk
+reset
+cs
+cpu_wr_en
+=addr_in[15:0]=
+[Outputs]
+sdram_wr_en
+sram_wr_en
+mem_strb
+d_in_selector
+d_out_selector
+rdy
+=addr_out_16[15:0]=
+=addr_out_8[7:0]=
+[BiDir]

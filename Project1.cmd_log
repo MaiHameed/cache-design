@@ -1,0 +1,2 @@
+vhdtdtfi -lib work sram.vhd -lib work d_out_mux.vhd -lib work d_in_mux.vhd -lib work CacheController.vhd -lib work SDRAMController.vhd -lib work Cache.vhd -lib work Project1.vhd -prj proj1 -o Project1.spl -module Project1 -template /CMC/tools/xilinx/13.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Project1.spl /home/student2/m3abdelh/COE758/proj1/Project1.sym 

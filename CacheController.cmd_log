@@ -1,0 +1,2 @@
+vhdtdtfi -lib work CacheController.vhd -prj proj1 -o CacheController.spl -module CacheController -template /CMC/tools/xilinx/13.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e CacheController.spl /home/student2/m3abdelh/COE758/proj1/CacheController.sym 

@@ -1,0 +1,7 @@
+[Inputs]
+selector
+=d_in[7:0]=
+[Outputs]
+=d_out_0[7:0]=
+=d_out_1[7:0]=
+[BiDir]
